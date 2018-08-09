@@ -15,7 +15,7 @@ $nascimento = new DateTime();
 
 /* variavel de ambiente, esta variavel analisa o tipo de dado */
 
-// var_dump($nascimento);
+var_dump($nascimento);
 
 /* Tipos especiais */
 
