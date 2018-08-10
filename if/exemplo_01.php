@@ -13,6 +13,7 @@ if ($idadeCrianca < $validadorFesta){
 }
 
 echo "<br>";
+
 if ($idadePreAdolecente < $validadorFesta) {
 	echo "Entrada somente a partir dos 18 anos";
 
@@ -30,19 +31,31 @@ if ($idadeMaior >= $validadorFesta) {
 echo "<br>";
 // Exemplo da Aula
 
-$qualSuaIdade = 30;
+$qualSuaIdade = 125;
 
 $idadeCrianca = 12;
 $idadeMaior = 18;
 $idadeMelhor = 65;
 
-if($qualSuaIdade > $idadeCrianca){
+if($qualSuaIdade < $idadeCrianca){
 
 	echo "Criança";
 
-} else {
+}else if($qualSuaIdade < $idadeMaior) {
 
-	echo "Não É criança";
+	echo "Adolecente";
+
+} else if($qualSuaIdade < $idadeMelhor) {
+
+	echo "Adulto";
+} else {
+	echo "Idoso";
 }
+
+echo "<br>";
+
+// Exemplo de condição ternário
+
+echo ($qualSuaIdade < $idadeMaior)?"Menor de Idade":"Maior de Idade";
 
 ?>
