@@ -12,6 +12,7 @@ abstract class Animal {
 		return "Anda";
 	}
 }
+
 class Cachorro extends Animal {
 
 	public function comunicar(){
