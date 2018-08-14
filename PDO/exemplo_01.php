@@ -1,5 +1,5 @@
 <?php  
-//CLASSE BD
+//CLASSE BD - SELECIONANDO DADOS
 $conexao = new PDO("mysql:dbname=dbphp7;host=localhost", "root", "");
 
 $stmt = $conexao->prepare("SELECT * FROM tb_usuarios ORDER BY deslogin");
