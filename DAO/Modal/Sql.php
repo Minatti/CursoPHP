@@ -15,7 +15,7 @@ class Sql extends PDO {
 
 	{
 			
-		$this->setParam($statment, $key, $value);
+		$this->setParam($statement, $key, $value);
 	}
 
 	}
@@ -24,7 +24,7 @@ class Sql extends PDO {
 
 	{
 
-		$statment->bindParam($key, $value);
+		$statement->bindParam($key, $value);
 
 	}
 
