@@ -1,0 +1,15 @@
+{
+    "name": "high/composer",
+    "description": "Aula de PHP7",
+    "type": "project",
+    "authors":[
+    	{
+    		"name": "Luan C.",
+    		"email": "luancarminatt@gmail.com"
+    	}
+	],
+    "minimum-stability": "dev",
+    "require": {
+    	"monolog/monolog":"1.0.*"
+    }
+}
